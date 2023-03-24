@@ -32,5 +32,9 @@ La implementación de MVC permite una mejor separación de responsabilidades en 
 
 # Demo
 
-![Captura de pantalla (985)](https://user-images.githubusercontent.com/42001590/216730710-6efac03e-4afc-42cf-bf38-479752e27276.png)
+![Captura de pantalla (1133)](https://user-images.githubusercontent.com/42001590/227607574-585a1ae9-d038-4fad-b04d-a60d5a8411a6.png)
+
+![Captura de pantalla (1134)](https://user-images.githubusercontent.com/42001590/227607612-fb2b749f-4429-41a2-ae76-24db50d0fbb1.png)
+
+![Captura de pantalla (1135)](https://user-images.githubusercontent.com/42001590/227607629-51ead03f-7484-442f-89f0-f9a77c90d4e3.png)
 
