@@ -1,13 +1,15 @@
-# [Asp.Net Core - Back-End](https://demo-two-psi.vercel.app/dashboard) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
+# [Asp.Net Core MVC - Store](https://demo-two-psi.vercel.app/dashboard) &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/facebook/react/blob/main/LICENSE) 
 
 ## Stack Tecnologico
 
 Principales tecnologias para el proyecto users:
 
 * **C#** 
-* **Asp.Net Core Web Api** 
+* **Asp.Net Core MVC** 
 * **SQL Server**
-* **Docker** 
+* **Bootstrap**
+* **jQuery** 
+
 
 ## Arquitectura
 
