@@ -21,28 +21,13 @@ Principales tecnologias para el proyecto store:
 
 ![Captura de pantalla (982)](https://user-images.githubusercontent.com/42001590/216451131-1b189b36-0d8b-45be-9a96-47c4431a86ee.png)
 
-## Patron de Diseño
+## Patron de Diseño Arquitectonico
 
-### Repository
-El patrón de diseño de repositorio es uno de los más populares para crear una aplicación de nivel empresarial. Tiene como restricción que se trabaja directamente con los datos de la aplicación y crea nuevas capas para las operaciones de la base de datos, la lógica de negocio, y la interfaz de usuario de la aplicación.
+### MVC
+MVC (Model-View-Controller) es un patrón arquitectónico comúnmente utilizado en el desarrollo de aplicaciones web. Este patrón divide la aplicación en tres partes principales: el modelo, la vista y el controlador.
+El modelo es responsable de manejar los datos y la lógica de negocio. La vista es la interfaz de usuario que muestra los datos y recibe la entrada del usuario. El controlador es el intermediario entre el modelo y la vista, procesando las solicitudes del usuario y actualizando el modelo y la vista en consecuencia.
+La implementación de MVC permite una mejor separación de responsabilidades en una aplicación, lo que hace que el código sea más fácil de mantener y actualizar. También permite que diferentes desarrolladores trabajen en diferentes partes de la aplicación al mismo tiempo, lo que puede acelerar el proceso de desarrollo.
 
-Ventajas del patrón de repositorio:
-
-*    El código de acceso a los datos puede ser reutilizado.
-*    Es fácil de implementar la lógica del dominio.
-*    Nos ayuda a desacoplar la lógica de la aplicación.
-*    La lógica de negocio puede ser probada fácilmente sin acceso a los datos.
-*    Es una buena manera de implementar la inyección de dependencia que hace que el código sea más fácil de probar
-
-## Paso a Paso para levantamiento Del Componente
-
-* **Etapa1:** Análisis de documentación, requerimientos y logica del proyecto.
-* **Etapa2:** Creacion del proyecto y instalacion de las diferentes librerias y dependencias, configuracion del proyecto.
-* **Etapa3:** Creacion y configuracion de Base de Datos, Modelos, Migraciones, Interfaces, Repositorios, Controladores y demás componentes.
-* **Etapa4:** Pruebas Unitarias
-* **Etapa5:** Configuracion Docker
-* **Etapa6:** Integracion con el Front-End
-* **Etapa7:** Despliegue del proyecto.
 
 # Demo
 
