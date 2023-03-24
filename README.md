@@ -2,7 +2,7 @@
 
 ## Stack Tecnologico
 
-Principales tecnologias para el proyecto users:
+Principales tecnologias para el proyecto store:
 
 * **C#** 
 * **Asp.Net Core MVC** 
