@@ -19,7 +19,7 @@ Principales tecnologias para el proyecto store:
 
 # Diagrama de Clases
 
-![Captura de pantalla (982)](https://user-images.githubusercontent.com/42001590/216451131-1b189b36-0d8b-45be-9a96-47c4431a86ee.png)
+![Diagrama ER de base de datos (MVC)(3)](https://user-images.githubusercontent.com/42001590/227595482-de384113-570b-44a6-9295-797e1c03e3f4.png)
 
 ## Patron de Diseño Arquitectonico
 
