@@ -13,7 +13,7 @@ Principales tecnologias para el proyecto store:
 
 ## Arquitectura
 
-### Diagrama de arquitectura de la solución (Basada en la nube de Azure). 
+### Diagrama de arquitectura de la solución (Basada en MVC). 
 
 ![Model1](https://user-images.githubusercontent.com/42001590/227574590-9f234014-662d-49ca-9d57-8d85edde3263.png)
 
