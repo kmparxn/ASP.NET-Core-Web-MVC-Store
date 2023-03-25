@@ -6,7 +6,7 @@
 Principales tecnologias para el proyecto store:
 
 * **C#** 
-* **Asp.Net Core MVC** 
+* **Asp.Net MVC** 
 * **SQL Server**
 * **Bootstrap**
 * **jQuery** 
