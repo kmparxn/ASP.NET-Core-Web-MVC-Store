@@ -7,6 +7,6 @@ namespace ProyectoTest.Logica
 {
     public class Conexion
     {
-        public static string CN = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=DB_CARRITO;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+        public static string CN = "workstation id=DBCARRITO2.mssql.somee.com;packet size=4096;user id=pedroherrera_SQLLogin_4;pwd=u2vtqx3qg7;data source=DBCARRITO2.mssql.somee.com;persist security info=False;initial catalog=DBCARRITO2";
     }
 }

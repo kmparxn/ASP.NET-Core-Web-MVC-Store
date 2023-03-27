@@ -9,9 +9,15 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="~/Content/StyleSheet1.css" rel="stylesheet" type="text/css" />
     @Styles.Render("~/Content/css")
 </head>
-<body class="bg-dark">
+<body>
+    <div id="video-container">
+        <video autoplay loop muted playsinline>
+            <source src="~/Videos/12.mp4" type="video/mp4">
+        </video>
+    </div>
     <div id="layoutAuthentication">
         <div id="layoutAuthentication_content">
             <main>
@@ -19,16 +25,16 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-5">
                             <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Login</h3></div>
+                                <div class="card-header"><h3 class="text-center font-weight-light my-4">Bienvenido</h3></div>
                                 <div class="card-body">
                                     <form action="@Url.Content("~/Login/Index")" method="post">
                                         @Html.AntiForgeryToken()
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" id="inputEmail" name="NCorreo" type="email" placeholder="name@example.com" @*value="pruebas@gmail.com"*@ value="admin@example.com" />
-                                            <label for="inputEmail">Correo</label>
+                                            <input class="form-control" id="inputEmail" name="NCorreo" type="email" placeholder="name@example.com" @*value="pruebas@gmail.com"*@ value="" />
+                                            <label for="inputEmail">Correo Electrónico</label>
                                         </div>
                                         <div class="form-floating mb-3">
-                                            <input class="form-control" id="inputPassword" name="NContrasena" type="password" placeholder="Contraseña" @*value="12345"*@ autocomplete="off" value="admin123" />
+                                            <input class="form-control" id="inputPassword" name="NContrasena" type="password" placeholder="Contraseña" @*value="12345"*@ autocomplete="off" value="" />
                                             <label for="inputPassword">Contraseña</label>
                                         </div>
                                         <div class="form-floating mb-3">
@@ -49,9 +55,9 @@
                                             </div>
                                         </div>
                                     </form>
-                                    
+
                                 </div>
-                                
+
                                 <div class="card-footer text-center py-3">
                                     <div class="small"><a id="publicidad_cuenta" href="@Url.Action("Registrarse","Login")">Necesitas una cuenta? Registrate!</a></div>
                                 </div>
@@ -65,7 +71,7 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Your Website 2021</div>
+                        <div class="text-muted">Copyright &copy; Your Store 2023</div>
                         <div>
                             <a href="#">Privacy Policy</a>
                             &middot;
@@ -77,9 +83,9 @@
         </div>
     </div>
     @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/ ")
     <script>
-        
+
     </script>
 </body>
 </html>
