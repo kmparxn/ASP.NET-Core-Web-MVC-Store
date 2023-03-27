@@ -2,9 +2,10 @@
 
 ## Despliegue y lanzamiento
 # [BestBuy](https://www.bestbuystore.somee.com/)
+https://www.bestbuystore.somee.com/ <br>
+
 
 ### Admin Credentials <br>
-https://www.bestbuystore.somee.com/ <br>
 email: admin@example.com <br>
 pass: admin123
 
