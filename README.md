@@ -3,6 +3,10 @@
 ## Despliegue y lanzamiento
 # [BestBuy](https://www.bestbuystore.somee.com/)
 
+Admin Credentials
+email: admin@example.com
+pass: admin123
+
 ### Prueba Técnica BackEnd Factoring  
 ## Stack Tecnologico
 
